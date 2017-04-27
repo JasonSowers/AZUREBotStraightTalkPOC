@@ -1,0 +1,277 @@
+{
+  "luis_schema_version": "2.0.0",
+  "versionId": "0.1",
+  "name": "YourLuisApp-2017-04-26T22:13:22.8829680+00:00",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "LifeChange"
+    },
+    {
+      "name": "LifeInsurance"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "PermanentLifeInsurance"
+    },
+    {
+      "name": "ReasonForContact"
+    },
+    {
+      "name": "UnexpectedEvents"
+    },
+    {
+      "name": "UniversalLife"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "yo",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "howdy",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "suh",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "what up",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "sup",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "whats up",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "change",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "life event",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "big change",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "big change in my life",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "major life change",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "major life event",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "major change",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "life change",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "a major change in my life",
+      "intent": "ReasonForContact",
+      "entities": []
+    },
+    {
+      "text": "permanent",
+      "intent": "PermanentLifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "perm",
+      "intent": "PermanentLifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "lifetime",
+      "intent": "PermanentLifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "forever",
+      "intent": "PermanentLifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "whole life protection",
+      "intent": "PermanentLifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "permanent life insurance",
+      "intent": "PermanentLifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "permanent life",
+      "intent": "PermanentLifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "entire life",
+      "intent": "PermanentLifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "having a baby",
+      "intent": "LifeChange",
+      "entities": []
+    },
+    {
+      "text": "having a child",
+      "intent": "LifeChange",
+      "entities": []
+    },
+    {
+      "text": "we're having a baby",
+      "intent": "LifeChange",
+      "entities": []
+    },
+    {
+      "text": "bundle of joy",
+      "intent": "LifeChange",
+      "entities": []
+    },
+    {
+      "text": "wife's pregnant",
+      "intent": "LifeChange",
+      "entities": []
+    },
+    {
+      "text": "life insurance",
+      "intent": "LifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "life",
+      "intent": "LifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "insurance please",
+      "intent": "LifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "i want insurance",
+      "intent": "LifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "protect my family if i die",
+      "intent": "LifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "protect my family",
+      "intent": "LifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "protect my life",
+      "intent": "LifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "insure my life",
+      "intent": "LifeInsurance",
+      "entities": []
+    },
+    {
+      "text": "plan for the unknown",
+      "intent": "UnexpectedEvents",
+      "entities": []
+    },
+    {
+      "text": "planning for the unknown",
+      "intent": "UnexpectedEvents",
+      "entities": []
+    },
+    {
+      "text": "plan for unexpected events",
+      "intent": "UnexpectedEvents",
+      "entities": []
+    },
+    {
+      "text": "plan for the unexpected",
+      "intent": "UnexpectedEvents",
+      "entities": []
+    },
+    {
+      "text": "events that are unexpected",
+      "intent": "UnexpectedEvents",
+      "entities": []
+    },
+    {
+      "text": "unexpected events",
+      "intent": "UnexpectedEvents",
+      "entities": []
+    },
+    {
+      "text": "universal",
+      "intent": "UniversalLife",
+      "entities": []
+    },
+    {
+      "text": "ul",
+      "intent": "UniversalLife",
+      "entities": []
+    },
+    {
+      "text": "universal life",
+      "intent": "UniversalLife",
+      "entities": []
+    }
+  ]
+}
